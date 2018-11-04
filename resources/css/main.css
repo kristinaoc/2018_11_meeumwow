@@ -178,6 +178,70 @@ header .layout-wide {
 /* -------------------------NAVIGATION-----------------------------  */
 
 
+.navigation {
+    background-color: var(--alternative-bg-color);
+}
+
+
+.nav-prompt {
+    width: 100%;
+    background-color: var(--alternative-bg-color);
+    padding-top: var(--padder);
+    padding-bottom: var(--padder);
+    color: var(--alternative-text-color);
+    border: none;
+    border-top: 1px solid black;
+    
+}
+
+
+.nav-inner {
+    margin-bottom: 0;
+}
+
+.nav-inner ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+
+.nav-inner li {
+    text-align: center;
+
+}
+
+.nav-inner a {
+    color: var(--alternative-text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: var(--spacer) 5px; 
+    border-bottom: 1px solid var(--alternative-text-color);
+
+    display: block;
+
+}
+
+.nav-inner a:hover {
+    color: var(--error-color);
+    border-bottom-color: currentColor;
+}
+
+
+@media screen and (min-width: 800px) {
+
+    .nav-prompt {
+        display: none;
+
+    }
+
+    
+
+
+}
+
+
 /* -------------------------FOOTER-----------------------------  */
 
 footer {
