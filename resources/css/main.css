@@ -328,6 +328,11 @@ input[type="submit"]:hover {
         align-items: center;
     }
 
+    .heading-main {
+        color: var(--alternative-text-color); 
+        text-shadow: 0px 1px 10px var(--strong-text-color);
+    }
+
 
 }
 
