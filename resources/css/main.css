@@ -45,6 +45,25 @@
 
 
 
+@media screen and (min-width: 800px){
+      
+  :root {  
+    
+    /* font sizes for desktop */
+       --font-size-site-title: 54px;
+       --font-size-page-title: 80px;
+       --font-size-section-title: 48px; 
+      
+
+    /* measurements*/
+    --padder: 2%;
+
+  }
+}
+
+
+
+
 /* -------------------------GLOBAL DEFAULTS-----------------------------  */
 
 *{
